@@ -1,11 +1,14 @@
 {
   "scripts": {
-    "start": "npx tsc && node dist/index.js",
+    "start": "npx tsc && node dist/src/index.js",
+    "test:audit:publish": "npx tsc && node dist/test/auditTrail.test.js",
+    "test:consumption:ctd": "npx tsc && node dist/test/consumptionReport.test.js",
     "lint": "eslint",
     "lint:format": "eslint && prettier src/**/*.ts --write"
   },
   "dependencies": {
     "@deltadao/nautilus": "^1.0.0-beta.1",
+    "dotenv": "^16.4.5",
     "ethers": "^5.7.2"
   },
   "devDependencies": {

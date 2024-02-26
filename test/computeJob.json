@@ -1,0 +1,16 @@
+{
+  "agreementId": "0xf0be3ada3b1d3c7232285cf9198436d6cdd09bcdbadf7b7ebec48ba0b3acc45d",
+  "jobId": "c7aa247f93814138b296c710cf263de2",
+  "owner": "0x9c26685b6E8e2997d9aAf3f1a642f1b1b3dB9580",
+  "status": 1,
+  "statusText": "Warming up",
+  "dateCreated": "1708959568.00198",
+  "dateFinished": null,
+  "results": "",
+  "stopreq": 0,
+  "removed": 0,
+  "algoDID": "did:op:0ae3069c26e968057a5a7666b07eb29928ce55744e6be3240eb7a5affa973445",
+  "inputDID": [
+    "did:op:272c5fe3e0fdb1a1c06466e60fa229f2bbb7be8f54b5cb26c28952fc9d43d243"
+  ]
+}
