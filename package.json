@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "npx tsc && node dist/src/index.js",
+    "start:audit": "npx tsc && node dist/src/index.js -t audit",
+    "start:report": "npx tsc && node dist/src/index.js --type consumption",
     "test:audit:publish": "npx tsc && node dist/test/auditTrail.test.js",
     "test:consumption:ctd": "npx tsc && node dist/test/consumptionReport.test.js",
     "lint": "eslint",
